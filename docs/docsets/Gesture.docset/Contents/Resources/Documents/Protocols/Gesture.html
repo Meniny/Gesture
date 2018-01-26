@@ -1,0 +1,2131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Gesture Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Protocol/Gesture" class="dashAnchor"></a>
+    <a title="Gesture Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">Gesture Docs</a> (77% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">Gesture Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        Gesture Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/UIControlEvents.html">UIControlEvents</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/Gesture.html">Gesture</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Gesture</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">Gesture</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo9UIControlCRbzlE2onxSC0B6EventsV_yxctF"></a>
+                    <a name="//apple_ref/swift/Method/on(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo9UIControlCRbzlE2onxSC0B6EventsV_yxctF">on(_:_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an event handler function for an event.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">on</span><span class="p">(</span><span class="n">_</span> <span class="nv">event</span><span class="p">:</span> <span class="kt">UIControlEvents</span><span class="p">,</span> <span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="k">Self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>event</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A UIControlEvents event</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The event handler function</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The control</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo9UIControlCRbzlE2onxSaySC0B6EventsVG_yxctF"></a>
+                    <a name="//apple_ref/swift/Method/on(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo9UIControlCRbzlE2onxSaySC0B6EventsVG_yxctF">on(_:_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an event handler function for multiple events.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">on</span><span class="p">(</span><span class="n">_</span> <span class="nv">events</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIControlEvents</span><span class="p">],</span> <span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="k">Self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>events</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An array of UIControlEvents</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The event handler function</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The control</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo9UIControlCRbzlE2onxs10DictionaryVySC0B6EventsVyxcGF"></a>
+                    <a name="//apple_ref/swift/Method/on(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo9UIControlCRbzlE2onxs10DictionaryVySC0B6EventsVyxcGF">on(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches event handler functions for different events.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">on</span><span class="p">(</span><span class="n">_</span> <span class="nv">callbacks</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIControlEvents</span><span class="p">:</span> <span class="p">(</span><span class="k">Self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callbacks</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A dictionary with a UIControlEvents event as the key and an event handler function as the value</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The control</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE2onxqd___yqd__ctSo19UIGestureRecognizerCRbd__lF"></a>
+                    <a name="//apple_ref/swift/Method/on(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE2onxqd___yqd__ctSo19UIGestureRecognizerCRbd__lF">on(_:_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches a gesture recognizer to the view for all its states.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">on</span><span class="o">&lt;</span><span class="kt">T</span><span class="p">:</span> <span class="kt">UIGestureRecognizer</span><span class="o">&gt;</span><span class="p">(</span><span class="n">_</span> <span class="nv">gesture</span><span class="p">:</span> <span class="kt">T</span><span class="p">,</span> <span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">T</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>gesture</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An object whose class descends from the UIGestureRecognizer class</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A function to be invoked when the gesture occurs</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE2onxqd___SC24UIGestureRecognizerStateOyqd__ctSo0dE0CRbd__lF"></a>
+                    <a name="//apple_ref/swift/Method/on(_:_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE2onxqd___SC24UIGestureRecognizerStateOyqd__ctSo0dE0CRbd__lF">on(_:_:_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches a gesture recognizer to the view for a given state.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">on</span><span class="o">&lt;</span><span class="kt">T</span><span class="p">:</span> <span class="kt">UIGestureRecognizer</span><span class="o">&gt;</span><span class="p">(</span><span class="n">_</span> <span class="nv">gesture</span><span class="p">:</span> <span class="kt">T</span><span class="p">,</span> <span class="n">_</span> <span class="nv">state</span><span class="p">:</span> <span class="kt">UIGestureRecognizerState</span><span class="p">,</span> <span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">T</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>gesture</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An object whose class descends from the UIGestureRecognizer class</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>state</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The state the gesture recognizer should be in</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A function to be invoked when the gesture occurs</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE2onxqd___SaySC24UIGestureRecognizerStateOGyqd__ctSo0dE0CRbd__lF"></a>
+                    <a name="//apple_ref/swift/Method/on(_:_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE2onxqd___SaySC24UIGestureRecognizerStateOGyqd__ctSo0dE0CRbd__lF">on(_:_:_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches a gesture recognizer to the view for multiple states.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">on</span><span class="o">&lt;</span><span class="kt">T</span><span class="p">:</span> <span class="kt">UIGestureRecognizer</span><span class="o">&gt;</span><span class="p">(</span><span class="n">_</span> <span class="nv">gesture</span><span class="p">:</span> <span class="kt">T</span><span class="p">,</span> <span class="n">_</span> <span class="nv">states</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIGestureRecognizerState</span><span class="p">],</span> <span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">T</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>gesture</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An object whose class descends from the UIGestureRecognizer class</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>states</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The states the gesture recognizer should be in</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A function to be invoked when the gesture occurs</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE2onxqd___s10DictionaryVySC24UIGestureRecognizerStateOyqd__cGtSo0eF0CRbd__lF"></a>
+                    <a name="//apple_ref/swift/Method/on(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE2onxqd___s10DictionaryVySC24UIGestureRecognizerStateOyqd__cGtSo0eF0CRbd__lF">on(_:_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches a gesture recognizer to the view and declares callbacks for its different states.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">on</span><span class="o">&lt;</span><span class="kt">T</span><span class="p">:</span> <span class="kt">UIGestureRecognizer</span><span class="o">&gt;</span><span class="p">(</span><span class="n">_</span> <span class="nv">gesture</span><span class="p">:</span> <span class="kt">T</span><span class="p">,</span> <span class="n">_</span> <span class="nv">callbacks</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIGestureRecognizerState</span><span class="p">:</span> <span class="p">(</span><span class="kt">T</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>gesture</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An object whose class descends from the UIGestureRecognizer class</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callbacks</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A dictionary with a state as the key and a callback as the value</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE3offxSo19UIGestureRecognizerCF"></a>
+                    <a name="//apple_ref/swift/Method/off(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE3offxSo19UIGestureRecognizerCF">off(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Detaches a gesture recognizer from the receiving view.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">off</span><span class="p">(</span><span class="n">_</span> <span class="nv">gesture</span><span class="p">:</span> <span class="kt">UIGestureRecognizer</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>gesture</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An object whose class descends from the UIGestureRecognizer class</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE3offxqd__mSo19UIGestureRecognizerCRbd__lF"></a>
+                    <a name="//apple_ref/swift/Method/off(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE3offxqd__mSo19UIGestureRecognizerCRbd__lF">off(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Detaches all the gestures recognizer of a given type from the receiving view.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">off</span><span class="o">&lt;</span><span class="kt">T</span><span class="p">:</span> <span class="kt">UIGestureRecognizer</span><span class="o">&gt;</span><span class="p">(</span><span class="n">_</span> <span class="nv">gestureType</span><span class="p">:</span> <span class="kt">T</span><span class="o">.</span><span class="k">Type</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>gestureType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A type of gesture recognizer</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE3offxyF"></a>
+                    <a name="//apple_ref/swift/Method/off()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE3offxyF">off()</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Detaches all the gestures recognizer from the receiving view.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">off</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE9longPressxySo06UILongdA10RecognizerCcF"></a>
+                    <a name="//apple_ref/swift/Method/longPress(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE9longPressxySo06UILongdA10RecognizerCcF">longPress(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an instance of UILongPressGestureRecognizer to the view for all its states.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">longPress</span><span class="p">(</span><span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">LongPressCallback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A function to be invoked when the gesture occurs</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE9longPressxSC24UIGestureRecognizerStateO_ySo06UILongdaF0CctF"></a>
+                    <a name="//apple_ref/swift/Method/longPress(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE9longPressxSC24UIGestureRecognizerStateO_ySo06UILongdaF0CctF">longPress(_:_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an instance of UILongPressGestureRecognizer to the view for a given state.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">longPress</span><span class="p">(</span><span class="n">_</span> <span class="nv">state</span><span class="p">:</span> <span class="kt">UIGestureRecognizerState</span><span class="p">,</span> <span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">LongPressCallback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>state</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The state the gesture recognizer should be in</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A function to be invoked when the gesture occurs</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE9longPressxSaySC24UIGestureRecognizerStateOG_ySo06UILongdaF0CctF"></a>
+                    <a name="//apple_ref/swift/Method/longPress(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE9longPressxSaySC24UIGestureRecognizerStateOG_ySo06UILongdaF0CctF">longPress(_:_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an instance of UILongPressGestureRecognizer to the view for a multiple states.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">longPress</span><span class="p">(</span><span class="n">_</span> <span class="nv">states</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIGestureRecognizerState</span><span class="p">],</span> <span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">LongPressCallback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>states</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The state the gesture recognizer should be in</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A function to be invoked when the gesture occurs</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE9longPressxs10DictionaryVySC24UIGestureRecognizerStateOySo06UILongdaG0CcGF"></a>
+                    <a name="//apple_ref/swift/Method/longPress(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE9longPressxs10DictionaryVySC24UIGestureRecognizerStateOySo06UILongdaG0CcGF">longPress(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an instance of UILongPressGestureRecognizer to the view and declares callbacks for its different states.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">longPress</span><span class="p">(</span><span class="n">_</span> <span class="nv">callbacks</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIGestureRecognizerState</span><span class="p">:</span> <span class="kt">LongPressCallback</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callbacks</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A dictionary with a state as the key and a callback as the value</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE3panxySo05UIPanA10RecognizerCcF"></a>
+                    <a name="//apple_ref/swift/Method/pan(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE3panxySo05UIPanA10RecognizerCcF">pan(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an instance of UIPanGestureRecognizer to the view for all its states.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">pan</span><span class="p">(</span><span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">PanCallback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A function to be invoked when the gesture occurs</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE3panxSC24UIGestureRecognizerStateO_ySo05UIPanaE0CctF"></a>
+                    <a name="//apple_ref/swift/Method/pan(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE3panxSC24UIGestureRecognizerStateO_ySo05UIPanaE0CctF">pan(_:_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an instance of UIPanGestureRecognizer to the view for a given state.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">pan</span><span class="p">(</span><span class="n">_</span> <span class="nv">state</span><span class="p">:</span> <span class="kt">UIGestureRecognizerState</span><span class="p">,</span> <span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">PanCallback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>state</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The state the gesture recognizer should be in</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A function to be invoked when the gesture occurs</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE3panxSaySC24UIGestureRecognizerStateOG_ySo05UIPanaE0CctF"></a>
+                    <a name="//apple_ref/swift/Method/pan(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE3panxSaySC24UIGestureRecognizerStateOG_ySo05UIPanaE0CctF">pan(_:_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an instance of UIPanGestureRecognizer to the view for a multiple states.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">pan</span><span class="p">(</span><span class="n">_</span> <span class="nv">states</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIGestureRecognizerState</span><span class="p">],</span> <span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">PanCallback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>states</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The state the gesture recognizer should be in</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A function to be invoked when the gesture occurs</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE3panxs10DictionaryVySC24UIGestureRecognizerStateOySo05UIPanaF0CcGF"></a>
+                    <a name="//apple_ref/swift/Method/pan(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE3panxs10DictionaryVySC24UIGestureRecognizerStateOySo05UIPanaF0CcGF">pan(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an instance UIPanGestureRecognizer to the view and declares callbacks for its different states.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">pan</span><span class="p">(</span><span class="n">_</span> <span class="nv">callbacks</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIGestureRecognizerState</span><span class="p">:</span> <span class="kt">PanCallback</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callbacks</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A dictionary with a state as the key and a callback as the value</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE5pinchxySo07UIPinchA10RecognizerCcF"></a>
+                    <a name="//apple_ref/swift/Method/pinch(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE5pinchxySo07UIPinchA10RecognizerCcF">pinch(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an instance of UIPinchGestureRecognizer to the view for all its states.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">pinch</span><span class="p">(</span><span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">PinchCallback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A function to be invoked when the gesture occurs</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE5pinchxSC24UIGestureRecognizerStateO_ySo07UIPinchaE0CctF"></a>
+                    <a name="//apple_ref/swift/Method/pinch(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE5pinchxSC24UIGestureRecognizerStateO_ySo07UIPinchaE0CctF">pinch(_:_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an instance of UIPinchGestureRecognizer to the view for a given state.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">pinch</span><span class="p">(</span><span class="n">_</span> <span class="nv">state</span><span class="p">:</span> <span class="kt">UIGestureRecognizerState</span><span class="p">,</span> <span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">PinchCallback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>state</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The state the gesture recognizer should be in</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A function to be invoked when the gesture occurs</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE5pinchxSaySC24UIGestureRecognizerStateOG_ySo07UIPinchaE0CctF"></a>
+                    <a name="//apple_ref/swift/Method/pinch(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE5pinchxSaySC24UIGestureRecognizerStateOG_ySo07UIPinchaE0CctF">pinch(_:_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an instance of UIPinchGestureRecognizer to the view for a multiple states.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">pinch</span><span class="p">(</span><span class="n">_</span> <span class="nv">states</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIGestureRecognizerState</span><span class="p">],</span> <span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">PinchCallback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>states</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The state the gesture recognizer should be in</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A function to be invoked when the gesture occurs</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE5pinchxs10DictionaryVySC24UIGestureRecognizerStateOySo07UIPinchaF0CcGF"></a>
+                    <a name="//apple_ref/swift/Method/pinch(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE5pinchxs10DictionaryVySC24UIGestureRecognizerStateOySo07UIPinchaF0CcGF">pinch(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an instance UIPinchGestureRecognizer to the view and declares callbacks for its different states.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">pinch</span><span class="p">(</span><span class="n">_</span> <span class="nv">callbacks</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIGestureRecognizerState</span><span class="p">:</span> <span class="kt">PinchCallback</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callbacks</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A dictionary with a state as the key and a callback as the value</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE8rotationxySo010UIRotationA10RecognizerCcF"></a>
+                    <a name="//apple_ref/swift/Method/rotation(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE8rotationxySo010UIRotationA10RecognizerCcF">rotation(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an instance of UIRotationGestureRecognizer to the view.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">rotation</span><span class="p">(</span><span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">RotationCallback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A function to be invoked when the gesture occurs</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE8rotationxSC24UIGestureRecognizerStateO_ySo010UIRotationaE0CctF"></a>
+                    <a name="//apple_ref/swift/Method/rotation(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE8rotationxSC24UIGestureRecognizerStateO_ySo010UIRotationaE0CctF">rotation(_:_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an instance of UIRotationGestureRecognizer to the view for a given state.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">rotation</span><span class="p">(</span><span class="n">_</span> <span class="nv">state</span><span class="p">:</span> <span class="kt">UIGestureRecognizerState</span><span class="p">,</span> <span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">RotationCallback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>state</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The states the gesture recognizer should be in</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A function to be invoked when the gesture occurs</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE8rotationxSaySC24UIGestureRecognizerStateOG_ySo010UIRotationaE0CctF"></a>
+                    <a name="//apple_ref/swift/Method/rotation(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE8rotationxSaySC24UIGestureRecognizerStateOG_ySo010UIRotationaE0CctF">rotation(_:_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an instance of UIRotationGestureRecognizer to the view for a multiple states.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">rotation</span><span class="p">(</span><span class="n">_</span> <span class="nv">states</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIGestureRecognizerState</span><span class="p">],</span> <span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">RotationCallback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>states</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The state the gesture recognizer should be in</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A function to be invoked when the gesture occurs</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE8rotationxs10DictionaryVySC24UIGestureRecognizerStateOySo010UIRotationaF0CcGF"></a>
+                    <a name="//apple_ref/swift/Method/rotation(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE8rotationxs10DictionaryVySC24UIGestureRecognizerStateOySo010UIRotationaF0CcGF">rotation(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an instance UIRotationGestureRecognizer to the view and declares callbacks for its different states.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">rotation</span><span class="p">(</span><span class="n">_</span> <span class="nv">callbacks</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIGestureRecognizerState</span><span class="p">:</span> <span class="kt">RotationCallback</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callbacks</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A dictionary with a state as the key and a callback as the value</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE5swipexySo07UISwipeA10RecognizerCcF"></a>
+                    <a name="//apple_ref/swift/Method/swipe(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE5swipexySo07UISwipeA10RecognizerCcF">swipe(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an instance of UISwipeGestureRecognizer to the view for all its states.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">swipe</span><span class="p">(</span><span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">SwipeCallback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A function to be invoked when the gesture occurs</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE5swipexSC24UIGestureRecognizerStateO_ySo07UISwipeaE0CctF"></a>
+                    <a name="//apple_ref/swift/Method/swipe(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE5swipexSC24UIGestureRecognizerStateO_ySo07UISwipeaE0CctF">swipe(_:_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an instance of UISwipeGestureRecognizer to the view for a given state.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">swipe</span><span class="p">(</span><span class="n">_</span> <span class="nv">state</span><span class="p">:</span> <span class="kt">UIGestureRecognizerState</span><span class="p">,</span> <span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">SwipeCallback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>state</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The state the gesture recognizer should be in</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A function to be invoked when the gesture occurs</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE5swipexSaySC24UIGestureRecognizerStateOG_ySo07UISwipeaE0CctF"></a>
+                    <a name="//apple_ref/swift/Method/swipe(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE5swipexSaySC24UIGestureRecognizerStateOG_ySo07UISwipeaE0CctF">swipe(_:_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an instance of UISwipeGestureRecognizer to the view for a multiple states.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">swipe</span><span class="p">(</span><span class="n">_</span> <span class="nv">states</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIGestureRecognizerState</span><span class="p">],</span> <span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">SwipeCallback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>states</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The state the gesture recognizer should be in</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A function to be invoked when the gesture occurs</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE5swipexs10DictionaryVySC24UIGestureRecognizerStateOySo07UISwipeaF0CcGF"></a>
+                    <a name="//apple_ref/swift/Method/swipe(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE5swipexs10DictionaryVySC24UIGestureRecognizerStateOySo07UISwipeaF0CcGF">swipe(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an instance UISwipeGestureRecognizer to the view and declares callbacks for its different states.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">swipe</span><span class="p">(</span><span class="n">_</span> <span class="nv">callbacks</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIGestureRecognizerState</span><span class="p">:</span> <span class="kt">SwipeCallback</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callbacks</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A dictionary with a state as the key and a callback as the value</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE3tapxySo05UITapA10RecognizerCcF"></a>
+                    <a name="//apple_ref/swift/Method/tap(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE3tapxySo05UITapA10RecognizerCcF">tap(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an instance of UITapGestureRecognizer to the view for all its states.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">tap</span><span class="p">(</span><span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">TapCallback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A function to be invoked when the gesture occurs</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE3tapxSC24UIGestureRecognizerStateO_ySo05UITapaE0CctF"></a>
+                    <a name="//apple_ref/swift/Method/tap(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE3tapxSC24UIGestureRecognizerStateO_ySo05UITapaE0CctF">tap(_:_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an instance of UITapGestureRecognizer to the view for a given state.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">tap</span><span class="p">(</span><span class="n">_</span> <span class="nv">state</span><span class="p">:</span> <span class="kt">UIGestureRecognizerState</span><span class="p">,</span> <span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">TapCallback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>state</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The state the gesture recognizer should be in</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A function to be invoked when the gesture occurs</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE3tapxSaySC24UIGestureRecognizerStateOG_ySo05UITapaE0CctF"></a>
+                    <a name="//apple_ref/swift/Method/tap(_:_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE3tapxSaySC24UIGestureRecognizerStateOG_ySo05UITapaE0CctF">tap(_:_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an instance of UITapGestureRecognizer to the view for a multiple states.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">tap</span><span class="p">(</span><span class="n">_</span> <span class="nv">states</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIGestureRecognizerState</span><span class="p">],</span> <span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">TapCallback</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>states</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The state the gesture recognizer should be in</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A function to be invoked when the gesture occurs</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7GestureAAPAASo6UIViewCRbzlE3tapxs10DictionaryVySC24UIGestureRecognizerStateOySo05UITapaF0CcGF"></a>
+                    <a name="//apple_ref/swift/Method/tap(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7GestureAAPAASo6UIViewCRbzlE3tapxs10DictionaryVySC24UIGestureRecognizerStateOySo05UITapaF0CcGF">tap(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attaches an instance UITapGestureRecognizer to the view and declares callbacks for its different states.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">tap</span><span class="p">(</span><span class="n">_</span> <span class="nv">callbacks</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIGestureRecognizerState</span><span class="p">:</span> <span class="kt">TapCallback</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callbacks</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A dictionary with a state as the key and a callback as the value</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The view</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="https://github.com/Meniny/Gesture" target="_blank" rel="external">Elias Abel</a>. All rights reserved. (Last updated: 2018-01-26)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

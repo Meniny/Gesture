@@ -1,0 +1,9 @@
+platform :ios, '8.0'
+
+target 'Sample' do
+  use_frameworks!
+
+  pod 'Gesture', :path => '../'
+  pod 'SwiftLint'
+
+end
